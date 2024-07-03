@@ -26,6 +26,7 @@ body {
 .avatar-container>img {
     width: 250px;
     margin: 25px;
+    border-radius: 50%;
 }
 
 @keyframes avatar-fade-in-animation {
