@@ -28,6 +28,7 @@ body {
     height: 250px;
     margin: 25px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 @keyframes avatar-fade-in-animation {
