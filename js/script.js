@@ -10,19 +10,9 @@ var audioPlayed = false;
 imgTag.addEventListener("click", function (event) {
   imgState = (++imgState % images.length);
   event.target.src = images[imgState];
-});
 
-document.addEventListener("DOMContentLoaded", function() {
   if (!audioPlayed) {
     audio.play();
     audioPlayed = true;
   }
 });
-
-document.onclick = function() {
-  if (!audioPlayed) {
-    audio.play();
-    audioPlayed = true;
-  }
-};
-
